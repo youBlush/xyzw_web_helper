@@ -1,9 +1,6 @@
 name = "xyzw-web-helper"
-compatibility_date = "2024-02-28"
+compatibility_date = "2023-12-01"
 
-# 明确指定 worker 的入口文件，让 Cloudflare 在服务端执行它
-main = "dist/_worker.js"
-
-# 将 dist 目录作为静态网页资源发布
-[assets]
-directory = "dist"
+[pages_build_config]
+build_command = "npm run build"
+destination_dir = "dist"
