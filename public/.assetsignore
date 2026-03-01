@@ -1,4 +1,0 @@
-# Cloudflare 资产部署安全绕过配置
-# 此文件用于向 Cloudflare 确认上传 _worker.js 是安全且符合预期的行为
-# 只要存在此文件，就能消除 "Uploading a Pages _worker.js file as an asset" 的阻断报错
-_worker.js
